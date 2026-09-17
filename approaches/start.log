@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.9.9)  17 SEP 2026 11:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2026.9.9)  17 SEP 2026 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./approaches.tex
-(approaches.tex
+**./start.tex
+(start.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -537,14 +537,8 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count294
 \l__pdf_internal_box=\box53
 )
-(approaches.aux
-LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 8
-.
-
-(C:\Users\sorvi\AppData\Roaming\MiKTeX\tex/latex/cyrillic\t2acmr.fd
-File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-))
-\openout1 = `approaches.aux'.
+No file start.aux.
+\openout1 = `start.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -561,6 +555,11 @@ LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 10.
+LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
+0.
+(C:\Users\sorvi\AppData\Roaming\MiKTeX\tex/latex/cyrillic\t2acmr.fd
+File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
@@ -568,10 +567,8 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 10.
 LaTeX Font Info:    ... okay on input line 10.
 LaTeX Info: Redefining \th on input line 10.
 Package hyperref Info: Link coloring OFF on input line 10.
-
-(approaches.out) (approaches.out)
 \@outlinefile=\write3
-\openout3 = `approaches.out'.
+\openout3 = `start.out'.
 
 
 *geometry* driver: auto-detecting
@@ -626,23 +623,29 @@ LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ) [1
 
-{C:/Users/sorvi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (approaches.
-aux)
+{C:/Users/sorvi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (start.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-Package rerunfilecheck Info: File `approaches.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+
+Package rerunfilecheck Warning: File `start.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `start.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11345 strings out of 474486
- 171016 string characters out of 5753571
+ 11337 strings out of 474486
+ 170752 string characters out of 5753571
  1933542 words of memory out of 5000000
- 33495 multiletter control sequences out of 15000+600000
+ 33493 multiletter control sequences out of 15000+600000
  569500 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,472b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,467b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\sorvi\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt12
 00.pk> <C:\Users\sorvi\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
 bx1200.pk> <C:\Users\sorvi\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi60
@@ -650,7 +653,7 @@ bx1200.pk> <C:\Users\sorvi\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi60
 pi600\labx1440.pk> <C:\Users\sorvi\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t
 2a/dpi600\labx1728.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on approaches.pdf (1 page, 84344 bytes).
+Output written on start.pdf (1 page, 84344 bytes).
 PDF statistics:
  207 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
